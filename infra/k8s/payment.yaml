@@ -27,6 +27,8 @@ spec:
               value: ticketing
             - name: MONGO_URI
               value: "mongodb://payment-db:27017/payment"
+            - name: STRIPE_SECRET_KEY
+              value: "sk_test_51Ic2PmBVHjS9XfWJonAHrT50VKI9pa3F4T87EFmO61DjE6kfLHG2D4auFxpMn1Dky75srvbLOTkReDA20i3IjY4k00l0Rod00j"
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
